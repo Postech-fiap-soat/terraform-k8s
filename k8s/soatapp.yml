@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: soatapp
-        image: gnoberto/soatapp:1
+        image: mateuspanda/soatapp:latest
         ports: 
           - containerPort: 3000
         livenessProbe:
